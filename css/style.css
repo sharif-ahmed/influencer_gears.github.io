@@ -120,6 +120,41 @@ img {
     margin-left: 100px;
 }
 
+.brand-section {
+    padding: 70px 0;
+}
+
+.brand-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.divider {
+    height: 10px;
+    background-image: url('../img/divider.png');
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
