@@ -190,11 +190,18 @@ img {
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
     padding: 15px;
+    overflow: hidden;
 }
 
-.product-item:hover {}
+.product-item img {
+    transition: all .5s;
+}
 
-.product-item img {}
+.product-item:hover img {
+    transform: scale(1.1);
+}
+
+
 
 .product-item h3 {
     color: #18191F;
@@ -248,6 +255,7 @@ img {
 
 .feature-product-photo {
     width: 40%;
+    overflow: hidden;
 }
 
 .feature-product-content {
